@@ -38,6 +38,18 @@ ul {
   list-style-type: none;
 }
 
+.nav-link-on::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+  position: relative;
+  display: block;
+  top: 49px;
+  border-radius: 2px;
+  bottom: -1px;
+}
+
 /* all-page-container-style */
 
 .container {
