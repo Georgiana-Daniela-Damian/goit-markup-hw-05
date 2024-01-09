@@ -51,10 +51,6 @@ ul {
   margin-left: 0;
 }
 
-.link-on {
-  color: #404bbf;
-}
-
 /* all-page-container-style */
 
 .container {
@@ -343,7 +339,7 @@ img {
 }
 
 .list-link {
-  color: var(--navy-blue-color);
+  color: #404bbf;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
