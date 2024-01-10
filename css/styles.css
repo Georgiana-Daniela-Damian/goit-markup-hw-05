@@ -548,11 +548,11 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.link-transform-p:hover .app-storange {
+.link-transform-p:hover {
   transform: translateY(0%);
 }
 
-.link-transform-p:focus .app-storange {
+.link-transform-p:focus {
   transform: translateY(0%);
 }
 
