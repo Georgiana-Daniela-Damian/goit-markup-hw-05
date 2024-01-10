@@ -425,7 +425,8 @@ img {
 .button-html {
   font-family: "Roboto", sans-serif;
   color: var(--white-color);
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #4d5ae5;
+
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -434,10 +435,10 @@ img {
   cursor: pointer;
 }
 
-.button-html-brand:hover,
-.button-html-brand:focus {
+.button-html:hover,
+.button-html:focus {
   color: var(--white-color);
-  background-color: #404bbf;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* button-portofolio */
