@@ -77,10 +77,10 @@ ul {
   width: 408px;
   min-height: 584px;
   background: #fcfcfc;
-  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0, 0.2);
 }
 
 .button-modal-close {
@@ -94,11 +94,9 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: #e7e9fc;
-
   margin: 1px solid rgba(0, 0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
-
   transition: background-colour 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -106,10 +104,12 @@ ul {
 .button-modal-close:hover {
   border: none;
   background-color: #404bbf;
+  fill: #ffffff;
 }
 .button-modal-close:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .svg-modal {
@@ -557,6 +557,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
   cursor: pointer;
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
