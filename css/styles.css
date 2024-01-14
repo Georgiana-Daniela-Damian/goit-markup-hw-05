@@ -471,12 +471,12 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24;
+  gap: 24px;
 }
 
 .instagr:hover,
 .intragr:focus {
-  background-color: 404bbf;
+  background-color: #404bbf;
 }
 
 .svg-icon {
@@ -561,30 +561,26 @@ ul {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-}
-
-.button-p:hover,
-.button-p:focus {
-  color: var(--white-color);
-  background-color: #404bbf;
-  border: 1px solid transparent;
-}
-
-.btn-border:hover {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.btn-border:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.btn-menu {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0, 0.2, 1);
+}
+
+.button-p:hover {
+  background-color: #404bbf;
+  color: var(--white-color);
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button-p:focus {
+  background-color: #404bbf;
+  color: var(--white-color);
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* cards-portofolio */
